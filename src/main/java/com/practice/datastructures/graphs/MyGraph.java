@@ -1,9 +1,6 @@
-package com.practice.graphs;
+package com.practice.datastructures.graphs;
 
 import java.util.Stack;
-import java.util.stream.Collector;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 /**
  * Created by shankark on 3/11/16.
@@ -90,7 +87,7 @@ public class MyGraph {
         return -1;
     }
 
-    private class Vertex {
+    public static class Vertex {
         private boolean visited = false;
         String label;
 
@@ -109,6 +106,8 @@ public class MyGraph {
         graph.addEdge("A", "C");
         graph.addEdge("A", "B");
         graph.depthFirstSearch();
+
+
 
 
      /*   System.out.println(Stream.of(1, 12, 13, 15, 19).filter(v -> {

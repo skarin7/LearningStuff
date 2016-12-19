@@ -1,7 +1,6 @@
 package com.practice.collections;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class FailFastModificationsTest {
 
@@ -12,10 +11,41 @@ public class FailFastModificationsTest {
         strings.add("two");
         strings.add("three");
 
-        for (String s : strings) {
+/*        for (String s : strings) {
             System.out.println(s);
             strings.add("four");
+        }*/
+        /**
+         * Another way to avoid Concurrent Modification Exception, use for-i loop
+         */
+        int size = strings.size();
+        for (int i = 0; i < size; i++) {
+            System.out.println(strings.toArray()[i]);
+
+            if(((String)strings.toArray()[i]).equalsIgnoreCase("one")) {
+                strings.remove("one"); // Remove the element you do't need
+                size--;
+            }
+
         }
+
+        System.out.println(" Normal for -i" + strings);
+        /**
+         * Another one using Iterator
+         */
+
+        ListIterator<String> iter = strings.listIterator();
+        while(iter.hasNext()) {
+            String val = iter.next();
+            if(val.equalsIgnoreCase("two")) {
+                iter.remove();
+            }
+
+        }
+
+        System.out.println("Using iterator" + strings);
+
+
     }
 
 }
