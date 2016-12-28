@@ -3,6 +3,7 @@ package com.practice;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.Hashtable;
 
 public class CloningAnObject {
 
@@ -68,6 +69,7 @@ public class CloningAnObject {
         tab.put(null, null);
         tab.get(null);
 */
+
         HashMap<String, String> map = new HashMap<>();
         map.put(null, null);
         map.put(null, "2");

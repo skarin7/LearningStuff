@@ -1,7 +1,10 @@
+
 package com.practice.problems;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
+import java.util.Scanner;
 
 /**
  * Created by shankark on 17/12/16.
@@ -24,7 +27,7 @@ public class MyQuickSort {
 
         int Pindex = start, pivot_item = array[end];
 
-    for(int i = start; i< end; i++) {
+        for(int i = start; i< end; i++) {
             if(array[i] < pivot_item) {
                 swap(array, i, Pindex);
                 Pindex++;
@@ -43,11 +46,25 @@ public class MyQuickSort {
     }
 
     public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
         MyQuickSort quickSort = new MyQuickSort();
-        int arr[] = {1,4,3,29,6,2,56,21,90,20};
-        quickSort.QuickSort(arr, 0, arr.length - 1);
-        System.out.println(" After sorting array is:"+ Arrays.toString(arr));
+        while(scan.hasNext()) {
+            int noOfTest = Integer.parseInt(scan.nextLine());
+            do {
+                int size = Integer.parseInt(scan.nextLine());
+                String  array[] = scan.nextLine().split(" ");
+//                List<Integer> lst = new ArrayList<>();
+                int[] objects = Arrays.asList(array).stream().mapToInt(i -> Integer.parseInt(i)).toArray();
+                quickSort.QuickSort(objects, 0, size - 1);
+                System.out.println(" After sorting array is:"+ Arrays.toString(objects));
+
+                System.out.println("Second largest in the array" + objects[size - 2]); // O(nlogn) Time complxity for Quicksor
+                noOfTest--;
+            }while(noOfTest > 0 );
+
+            break;
+        }
+        }
 
     }
 
-}
