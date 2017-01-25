@@ -1,5 +1,7 @@
 package com.practice;
 
+import java.math.BigDecimal;
+
 public class AnanymousInnerClass {
 
     public static int var = 10;
@@ -9,6 +11,8 @@ public class AnanymousInnerClass {
         void anotherHello();
     }
     public static void main(String[] args) {
+
+
         SayColor blue = new SayColor() {
             int newVar = 100;
             @Override

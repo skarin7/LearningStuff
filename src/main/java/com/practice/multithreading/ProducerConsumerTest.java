@@ -25,19 +25,13 @@ public class ProducerConsumerTest {
         public void run() {
             System.out.println("Producer producing !!");
                 for (int i = 1; i < 100; i++) {
-                try {
-                    Thread.sleep(500);
-                        sharedObject.add(i);
-                        if(sharedObject.size() > 4) {
-                            sharedObject.remove(sharedObject.size() - 1);
-                        }
+                //Thread.sleep(500);
+                    sharedObject.add(i);
+                    if(sharedObject.size() > 4) {
+                        sharedObject.remove(sharedObject.size() - 1);
+                    }
 
-                } catch (InterruptedException e) {
-                    // TODO Auto-generated catch block
-                    e.printStackTrace();
                 }
-
-            }
 
         }
 
@@ -50,14 +44,14 @@ public class ProducerConsumerTest {
             System.out.println("Consmer consuming!!");
             try {
                 Thread.sleep(500);
-                while (true) {
+//                while (true) {
                     synchronized (sharedObject) {
                         Iterator<Integer> iterator = sharedObject.iterator();
                         while (iterator.hasNext()) {
                             System.out.println(iterator.next());
                         }
                     }
-                }
+//                }
             } catch (InterruptedException e) {
                 // TODO Auto-generated catch block
                 e.printStackTrace();

@@ -1,4 +1,4 @@
-package com.practice.patterns.proxy.aop;
+package com.practice.patterns.aop;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.InvocationTargetException;

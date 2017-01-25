@@ -1,4 +1,4 @@
-package com.practice.patterns.proxy.aop;
+package com.practice.patterns.aop;
 
 /**
  * Created by shankark on 26/9/16.

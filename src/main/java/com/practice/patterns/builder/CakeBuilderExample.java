@@ -1,10 +1,4 @@
-package com.practice.patterns.proxy.builder;
-
-import java.util.ArrayDeque;
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.ConcurrentHashMap;
+package com.practice.patterns.builder;
 
 /**
  * Created by shankark on 22/12/16.

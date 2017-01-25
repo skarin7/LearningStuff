@@ -12,7 +12,7 @@ public class EnumTest {
     }
 
     public static void main(String[] args) {
-        EnumTest test = new EnumTest(EnumType.THREE);
+        EnumTest test = new EnumTest(EnumType.ONE);
         System.out.println(EnumSet.allOf(EnumType.class));
         System.out.println(EnumSet.of(EnumType.ONE, EnumType.THREE));
         test.printEnms();
@@ -23,14 +23,14 @@ public class EnumTest {
     }
 
     public enum EnumType {
-        ONE(1), TWO(2), THREE(3);
+        ONE("1"), TWO("2"), THREE("3");
 
-        int value;
-        private EnumType(int value) {
+        String value;
+        private EnumType(String value) {
             this.value = value;
         }
 
-        public int getValue() {
+        public String getValue() {
             return this.value;
         }
     }

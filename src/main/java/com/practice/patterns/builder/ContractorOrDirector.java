@@ -1,4 +1,4 @@
-package com.practice.patterns.proxy.builder;
+package com.practice.patterns.builder;
 
 /**
  * Created by shankark on 22/12/16.
