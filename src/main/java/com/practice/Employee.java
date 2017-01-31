@@ -107,13 +107,28 @@ public class Employee implements Serializable, Cloneable {
 */
     @Override
     public Object clone() {
+        // Light weight clone
+//            return new Employee();
         try {
             return super.clone();
         } catch (CloneNotSupportedException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
         return null;
+    }
+
+    public static void main(String[] args) {
+        Employee employee = new Employee("Shankar", 1,2);
+        System.out.println(employee.toString());
+
+        Employee clonedEmp = (Employee) employee.clone();
+
+        System.out.println(employee == clonedEmp);
+        clonedEmp.setName("ChangdNameFromClone");
+
+
+        System.out.println("Cloned Emp" + clonedEmp.toString());
+
     }
 
 }
