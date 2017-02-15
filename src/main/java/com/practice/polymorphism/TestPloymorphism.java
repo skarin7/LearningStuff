@@ -6,7 +6,7 @@ package com.practice.polymorphism;
 public class TestPloymorphism {
 
     /**
-     * This is Dynamic binding . At the copilation time Compiler will bind the parent object's display method for compilation validation
+     * This is Dynamic binding . At the compilation time Compiler will bind the parent object's display method for compilation validation
      * Whre as Parent p = new Child(), here the child object reference is resolved at runtime to the overriden method
      * @param args
      */

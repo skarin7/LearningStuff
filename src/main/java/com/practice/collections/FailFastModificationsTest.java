@@ -1,6 +1,7 @@
 package com.practice.collections;
 
 import java.util.*;
+import java.util.function.Consumer;
 
 public class FailFastModificationsTest {
 
@@ -28,6 +29,17 @@ public class FailFastModificationsTest {
             }
 
         }
+        System.out.println(" Using java8 Consumers!!");
+        strings.forEach(new Consumer<String>() {
+            @Override
+            public void accept(String s) {
+                System.out.println(s);
+            }
+        });
+
+        // Test
+
+        System.out.println( " Any matches?" + strings.stream().anyMatch(p -> p.equals("two")));
 
         System.out.println(" Normal for -i" + strings);
         /**

@@ -1,5 +1,9 @@
 package com.practice;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 public class DefaultMethodInterfaceImpl implements InterfaceWithDefaultMethods1, InterfaceWithDefaultMethods2 {
 
     public static void main(String[] args) {
@@ -12,5 +16,6 @@ public class DefaultMethodInterfaceImpl implements InterfaceWithDefaultMethods1,
         // TODO Auto-generated method stub
         return InterfaceWithDefaultMethods2.super.increment(x);
     }
+
 
 }

@@ -5,6 +5,12 @@ import java.util.List;
 import java.util.function.BiConsumer;
 import java.util.function.Function;
 
+/**
+ * Functional interface is any Interface with only one abstarct method.
+ *
+ *
+ *
+ */
 public class FunctionalInterfaceJava8Demo {
     public int var = 10;
     @FunctionalInterface
