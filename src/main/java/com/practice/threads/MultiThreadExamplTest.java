@@ -1,4 +1,4 @@
-package com.practice;
+package com.practice.threads;
 
 import java.util.HashMap;
 import java.util.Hashtable;
