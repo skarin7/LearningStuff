@@ -38,7 +38,7 @@ public class RemoveDuplicatesWithoutExtraMemory {
     }
 
     public static void main(String[] args) {
-        String input = "abcdwaaaddd daaaaqqqq";
+        String input = "abcdwaaaddddaaaaqqqq";
         RemoveDuplicatesWithoutExtraMemory remove = new RemoveDuplicatesWithoutExtraMemory();
 //        remove.removeDuplicateWithExtraArray(input);
         remove.removeWithout(input);
