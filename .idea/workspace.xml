@@ -5,30 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43fff09a-ea1f-4377-a4ef-d53551832bb0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/latest/MyBloomFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/latest/classics/MyTrie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/latest/codingpatterns/ALLSubSets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/latest/codingpatterns/FactorialUsingStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/latest/codingpatterns/MaxInBionicArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/latest/codingpatterns/MaxMinHeapExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/latest/codingpatterns/NearestKPointsIn2DPlane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/latest/codingpatterns/PairWithGivenSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/latest/codingpatterns/TreePathWithSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/DefaultMethodInterfaceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/DefaultMethodInterfaceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/SerializationDeserialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/SerializationDeserialization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/jackson/JacksonVerifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/jackson/JacksonVerifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/threads/EvenOddPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/threads/EvenOddPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kotlin/SampleKotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kotlin/SampleKotlin.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/DefaultMethodInterfaceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/practice/DefaultMethodInterfaceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/practice/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/SerializationDeserialization.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/practice/SerializationDeserialization.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
