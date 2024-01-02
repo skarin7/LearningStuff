@@ -14,7 +14,7 @@ public class DefaultMethodInterfaceImpl implements InterfaceWithDefaultMethods1,
     @Override
     public int increment(int x) {
         // TODO Auto-generated method stub
-        return InterfaceWithDefaultMethods2.super.increment(x);
+        return InterfaceWithDefaultMethods1.super.increment(x);
     }
 
 

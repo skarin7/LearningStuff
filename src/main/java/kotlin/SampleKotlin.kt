@@ -1,8 +1,11 @@
+/*
 import java.util.*
 
+*/
 /**
  * Created by shankar on 30/5/17.
- */
+ *//*
+
 
 class Sample {
 
@@ -106,10 +109,12 @@ class Sample {
 fun main(args: Array<String>) {
     println(" Hello From kotlin.. ${if (args[0].equals("shan", true)) args[0] else "Dummy"}")
     val sample = Sample()
-    /*   sample.Custprint()
+    */
+/*   sample.Custprint()
        if(sample.checkMyNull(12)) println(" Inside the  String check mate...")
        sample.testLoop()
-   */
+   *//*
+
 
     println(sample.usingWhen("Fkrri"))
 
@@ -124,3 +129,4 @@ fun main(args: Array<String>) {
 
 }
 
+*/

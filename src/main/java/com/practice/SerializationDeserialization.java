@@ -13,7 +13,7 @@ public class SerializationDeserialization {
 
     public static void main(String[] args) {
 
-        Employee emp = new Employee("Shankar", 27, 7765);
+//        Employee emp = new Employee("Shankar", 27, 7765);
         GuestEmployee guest = new GuestEmployee("tester");
         guest.setName("GuestName");
         guest.setAge(124);

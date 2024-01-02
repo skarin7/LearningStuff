@@ -3,7 +3,7 @@ package com.practice;
 import java.io.Serializable;
 
 public class Employee implements Serializable, Cloneable {
-    private static final long serialVersionUID = 3276917082079041629L;
+//    private static final long serialVersionUID = 3276917082079041629L;
     String name;
     transient int age;
     int rollNo;

@@ -60,7 +60,7 @@ public class JacksonVerifier {
         }
     }
 
-    @Test(expected = JsonMappingException.class)
+    @Test(expected = Exception.class)
     @Ignore
     public void givenAbstractClass_whenDeserializing_thenException()
             throws IOException {

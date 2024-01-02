@@ -28,10 +28,10 @@ public class EvenOddPrinter extends Thread {
                 if (i % 2 == 0 /*&& Thread.currentThread().getName().equalsIgnoreCase(name)*/) {
 //                System.out.println(" Waitin g for odd thread to compleet ..");
                     synchronized (lock) {
-                        System.out.println(i);
+                        System.out.println("Even: " + i);
                         i++;
                         try {
-                            lock.wait();
+                            lock.wait(2000);
                         } catch (InterruptedException e) {
                             e.printStackTrace();
                         }
@@ -42,7 +42,7 @@ public class EvenOddPrinter extends Thread {
                 if (i % 2 == 1) {
 //                System.out.println(" Waitin g for even thread to compleet ..");
                     synchronized (lock) {
-                        System.out.println(i);
+                        System.out.println("Odd: " + i);
                         lock.notify();
                         i++;
                     }
