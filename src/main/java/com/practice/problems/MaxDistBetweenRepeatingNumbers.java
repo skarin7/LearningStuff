@@ -15,7 +15,6 @@ public class MaxDistBetweenRepeatingNumbers {
     MaxDistBetweenRepeatingNumbers test = new MaxDistBetweenRepeatingNumbers();
         System.out.println(test.maxDistance(input, 10));
     }
-
     private int maxDistance(int arr[], int n) {
         Map<Integer, Integer> map = new HashMap<>();
         int distance[] = new int[10];
