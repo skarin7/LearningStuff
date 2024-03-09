@@ -29,10 +29,6 @@ public class MyTrie {
             }
         }
 
-        String searchInTrie(String keyword) {
-
-        }
-
     }
 
 }
