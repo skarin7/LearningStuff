@@ -59,6 +59,7 @@ public class MyTrie {
         }
     }
 
+<<<<<<< HEAD
     boolean searchInTrie(String keyword) {
         TrieNode cur = root;
         for (char curCHar : keyword.toCharArray()) {
@@ -76,6 +77,8 @@ public class MyTrie {
         }
 
         return false;
+=======
+>>>>>>> 1aa11e4a4eee85644c5b18c1a4bbaad6e78293c5
     }
 
     // print all words with a given common prefixes..
