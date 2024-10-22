@@ -1,7 +1,6 @@
 package com.practice.threads;
 
 import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.Executors;
 import java.util.concurrent.LinkedBlockingQueue;
 
 /**
@@ -11,14 +10,12 @@ public class CustomThreadPool {
     BlockingQueue<Runnable> ques = null;
     ThreadWorrker[] workers = null;
     CustomThreadPool(int noOfThreads, int thredsInQueue) {
-         workers = new ThreadWorrker[noOfThreads];// For number of threads
-         ques = new LinkedBlockingQueue<Runnable>();
-
+         this.workers = new ThreadWorrker[noOfThreads];// For number of threads
+         this. ques = new LinkedBlockingQueue<Runnable>();
         for (int i = 0; i < noOfThreads; i++) {
             workers[i] = new ThreadWorrker();
             workers[i].start();
         }
-
     }
 
     volatile boolean isStopped = false;
@@ -86,19 +83,9 @@ public class CustomThreadPool {
     public static void main(String[] args) {
         CustomThreadPool cust = new CustomThreadPool(4, 3);
 
-        Runnable t1 = new Runnable() {
-            @Override
-            public void run() {
-                System.out.println(" Run thread t1");
-            }
-        };
+        Runnable t1 = () -> System.out.println(" Run thread t1");
 
-        Runnable t2 = new Runnable() {
-            @Override
-            public void run() {
-                System.out.println(" Run thread t2");
-            }
-        };
+        Runnable t2 = () -> System.out.println(" Run thread t2");
 
         try {
             cust.execute(t1);

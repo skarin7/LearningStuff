@@ -1,7 +1,7 @@
 package com.practice.latest.codingpatterns;
 
 import java.util.ArrayList;
-import java.util.Comparator;
+import java.util.Arrays;
 import java.util.List;
 import java.util.PriorityQueue;
 
@@ -40,9 +40,7 @@ public class NearestKPointsIn2DPlane {
 
     private static List<Point> kNearestMembers(Point[] points, int k) {
         PriorityQueue<Point> maxHeap = new PriorityQueue<>((point, point2) -> point2.distanceFromOrigin() - point.distanceFromOrigin());
-        for (int i = 0; i< k; i++) {
-            maxHeap.add(points[i]);
-        }
+        maxHeap.addAll(Arrays.asList(points).subList(0, k));
         //Now that we have k elements, loop through all other items and see if the head (max value) is greater than the current value,
         // else remove it and add new item..
         for (int i = k; i< points.length; i++) {

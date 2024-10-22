@@ -25,12 +25,12 @@ public class RemoveDuplicatesWithoutExtraMemory {
 
     }
     void removeWithout(String input) {
-        String cleanedString = "";
+        StringBuilder cleanedString = new StringBuilder();
 
         for (int i = 0; i < input.length(); i++) {
             char c = input.charAt(i);
-            if(!cleanedString.contains("" + c)) {
-                cleanedString+= c;
+            if(!cleanedString.toString().contains("" + c)) {
+                cleanedString.append(c);
             }
         }
 

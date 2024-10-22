@@ -26,12 +26,7 @@ public class MultipleInheritanceExample {
 
 
         void usePrint() {
-            new A() {
-                @Override
-                public void print() {
-                    System.out.println(" From inside interface A");
-                }
-            }.print();
+            ((A) () -> System.out.println(" From inside interface A")).print();
         }
 
         @Override

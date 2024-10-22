@@ -30,12 +30,7 @@ public class FailFastModificationsTest {
 
         }
         System.out.println(" Using java8 Consumers!!");
-        strings.forEach(new Consumer<String>() {
-            @Override
-            public void accept(String s) {
-                System.out.println(s);
-            }
-        });
+        strings.forEach(s -> System.out.println(s));
 
         // Test
 

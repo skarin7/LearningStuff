@@ -37,12 +37,7 @@ public class JavaFutures {
             System.out.println(" Still doing the work");
             System.out.println(" Meaning while we send one more thread to do other work");
 
-            executorService.execute(new Runnable() {
-                @Override
-                public void run() {
-                    System.out.println(" Small task that can be finished..");
-                }
-            });
+            executorService.execute(() -> System.out.println(" Small task that can be finished.."));
         } else {
             try {
                 Object o = submit.get();

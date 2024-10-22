@@ -3,8 +3,6 @@ package com.practice;
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.practice.VolatileSample.count;
-
 /**
  * Created by shankark on 4/1/17.
  */

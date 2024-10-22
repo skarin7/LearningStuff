@@ -1,7 +1,5 @@
 package com.practice.patterns.decorator;
 
-import java.io.InputStreamReader;
-
 /**
  * Created by shankark on 30/12/16.
  */

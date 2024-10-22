@@ -1,9 +1,5 @@
 package com.practice.threads;
 
-import com.practice.patterns.strategy.Strategy;
-
-import java.util.concurrent.CountDownLatch;
-
 /**
  * Created by shankark on 16/2/17.
  */

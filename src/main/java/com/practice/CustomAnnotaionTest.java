@@ -18,7 +18,7 @@ public class CustomAnnotaionTest {
     }
 
 
-      private class ClassWithAnotations {
+      private static class ClassWithAnotations {
         @checkNotNull
         public void samp(String param) {
             System.out.println(" Samp" + param);

@@ -1,70 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43fff09a-ea1f-4377-a4ef-d53551832bb0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/backtracking/PrintAllPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/lockfree/StackUsingLockFree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/threads/ThreadPoolAsync.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/EnumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/EnumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/datastructures/PrintAllPermitaionsWithSpaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/datastructures/PrintAllPermitaionsWithSpaces.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/datastructures/trees/DepthOfATree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/datastructures/trees/DepthOfATree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ServerContextIssue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ServerContextIssue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestDeseriler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestDeseriler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WordBreak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WordBreak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/AnanymousInnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/AnanymousInnerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/CloningAnObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/CloningAnObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/CustomAnnotaionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/CustomAnnotaionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/DefaultMethodInterfaceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/DefaultMethodInterfaceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/InnerClassesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/InnerClassesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/MaxOccurenceOfRepeatingCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/MaxOccurenceOfRepeatingCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/MultipleInheritanceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/MultipleInheritanceExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/PassByValueOrReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/PassByValueOrReference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/SampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/SerializationDeserialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/SerializationDeserialization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/TestInherit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/TestInherit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/collections/ExperimentCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/collections/ExperimentCollections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/collections/FailFastModificationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/collections/FailFastModificationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/collections/SetOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/collections/SetOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/datastructures/trees/CustomBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/datastructures/trees/CustomBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/immutable/MyImmutableClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/immutable/MyImmutableClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/jackson/JacksonVerifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/jackson/JacksonVerifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/latest/classics/MyTrie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/latest/classics/MyTrie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/latest/codingpatterns/NearestKPointsIn2DPlane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/latest/codingpatterns/NearestKPointsIn2DPlane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/multithreading/PrintEvenOddMultipleThreads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/multithreading/PrintEvenOddMultipleThreads.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/patterns/decorator/DecaratorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/patterns/decorator/DecaratorDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/problems/MaxDistBetweenRepeatingNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/problems/MaxDistBetweenRepeatingNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/AnanymousInnerClass$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/AnanymousInnerClass$SayColor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/AnanymousInnerClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/Child.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/CloningAnObject$SafeSimpleDateFormat$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/CloningAnObject$SafeSimpleDateFormat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/CloningAnObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/CompareListOfmaps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/ConcreteClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/DefaultMethodInterfaceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/FunctionalInterfaceJava8Demo$Demofunction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/FunctionalInterfaceJava8Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/GrandParent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/GuestEmployee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/Industry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/InterfaceWithDefaultMethods1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/InterfaceWithDefaultMethods2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/MInimumSumOfSortedArraElements.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/MultipleInheritanceExample$A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/MultipleInheritanceExample$AB$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/MultipleInheritanceExample$AB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/MultipleInheritanceExample$B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/MultipleInheritanceExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/MyAbstractClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/MyLinkedList$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/MyLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/Parent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/SampleTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/SampleTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/SerializationDeserialization.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/SoftwareIndustry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/TestAbstarctInterfaces.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/TestInherit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/VolatileSample$ThreadFirst.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/VolatileSample$ThreadSecond.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/VolatileSample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/collections/ConcurrentMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/collections/ExperimentCollections.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/collections/FailFastModificationsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/collections/MyArrayList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/collections/MyHashMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/generics/GenericType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/immutable/MyImmutableClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/multithreading/ProducerConsumerTest$MyConsumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/multithreading/ProducerConsumerTest$MyProducer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/multithreading/ProducerConsumerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/patterns/proxy/Image.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/patterns/proxy/ProxyImage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/patterns/proxy/ProxyPatternDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/patterns/proxy/RealImage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/polymorphism/Child.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/polymorphism/Parent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/polymorphism/TestPloymorphism.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/problems/MyQuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/problems/MyQuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/threads/CustomThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/threads/CustomThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/threads/EvenOddPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/threads/EvenOddPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/threads/JavaFutures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/threads/JavaFutures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/multithreading/ProducerConsumerTest$MyConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/practice/multithreading/ProducerConsumerTest$MyConsumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/multithreading/ProducerConsumerTest$MyProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/practice/multithreading/ProducerConsumerTest$MyProducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/multithreading/ProducerConsumerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/practice/multithreading/ProducerConsumerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -422,15 +401,19 @@
     "Application.MaxSubArraySum.executor": "Run",
     "Application.MyQuickSort.executor": "Run",
     "Application.PrintAllPermitaionsWithSpaces.executor": "Run",
+    "Application.PrintAllPermutation.executor": "Run",
     "Application.ProducerConsumerTest.executor": "Run",
+    "Application.StackUsingLockFree.executor": "Run",
+    "Application.ThreadPoolAsync.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/shankarkaringula/Work/Sources/Learnings/LearningStuff",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
@@ -439,7 +422,7 @@
       <recent name="com.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CustomDIDriver">
+  <component name="RunManager" selected="Application.StackUsingLockFree">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -548,34 +531,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.EnumTest" />
-      <module name="learning" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindMissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.FindMissingNumber" />
-      <module name="learning" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="JacksonVerifier" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.practice.jackson.JacksonVerifier" />
       <module name="learning" />
@@ -590,13 +545,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintAllPermitaionsWithSpaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.datastructures.PrintAllPermitaionsWithSpaces" />
+    <configuration name="PrintAllPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.backtracking.PrintAllPermutation" />
       <module name="learning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.practice.datastructures.*" />
+          <option name="PATTERN" value="com.practice.backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackUsingLockFree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.lockfree.StackUsingLockFree" />
+      <module name="learning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.practice.lockfree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadPoolAsync" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.threads.ThreadPoolAsync" />
+      <module name="learning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.practice.threads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -683,22 +666,22 @@
     </configuration>
     <list>
       <item itemvalue="Application.JacksonVerifier" />
+      <item itemvalue="Application.PrintAllPermutation" />
+      <item itemvalue="Application.StackUsingLockFree" />
+      <item itemvalue="Application.ThreadPoolAsync" />
       <item itemvalue="Application.CustomDI" />
       <item itemvalue="Application.CustomDIDriver" />
-      <item itemvalue="Application.EnumTest" />
-      <item itemvalue="Application.FindMissingNumber" />
-      <item itemvalue="Application.PrintAllPermitaionsWithSpaces" />
       <item itemvalue="JUnit.MultiPramaGenericsTest" />
       <item itemvalue="JUnit.JacksonVerifier.givenAbstractClass_whenDeserializing_thenException" />
       <item itemvalue="JUnit.JacksonVerifier" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StackUsingLockFree" />
+        <item itemvalue="Application.PrintAllPermutation" />
+        <item itemvalue="Application.ThreadPoolAsync" />
         <item itemvalue="Application.CustomDIDriver" />
         <item itemvalue="Application.CustomDI" />
-        <item itemvalue="Application.EnumTest" />
-        <item itemvalue="Application.FindMissingNumber" />
-        <item itemvalue="Application.PrintAllPermitaionsWithSpaces" />
       </list>
     </recent_temporary>
   </component>
@@ -826,12 +809,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/practice/SerializationDeserialization.java</url>
-          <line>45</line>
+          <line>43</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/practice/SerializationDeserialization.java</url>
-          <line>46</line>
+          <line>44</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -841,7 +824,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/practice/jackson/JacksonVerifier.java</url>
-          <line>63</line>
+          <line>58</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -871,12 +854,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ServerContextIssue.java</url>
-          <line>14</line>
+          <line>10</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/TestDeseriler.java</url>
-          <line>170</line>
+          <line>169</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -886,12 +869,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/TestDeseriler.java</url>
-          <line>171</line>
+          <line>170</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/TestDeseriler.java</url>
-          <line>169</line>
+          <line>168</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -916,7 +899,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ServerContextIssue.java</url>
-          <line>18</line>
+          <line>14</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -954,6 +937,26 @@
           <line>119</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/practice/threads/ThreadPoolAsync.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/practice/threads/ThreadPoolAsync.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/practice/threads/ThreadPoolAsync.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/practice/threads/ThreadPoolAsync.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/practice/latest/codingpatterns/TreePathWithSum.java</url>
           <line>106</line>
@@ -983,7 +986,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/practice/problems/MyQuickSort.java</url>
-          <line>47</line>
+          <line>45</line>
           <properties class="com.practice.problems.MyQuickSort" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />

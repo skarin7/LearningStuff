@@ -1,7 +1,5 @@
 package com.practice;
 
-import java.io.FileInputStream;
-
 public class TestInherit {
     void overload() {
         System.out.println("Inside overlaod empty");

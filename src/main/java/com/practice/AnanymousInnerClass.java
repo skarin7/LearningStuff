@@ -1,7 +1,5 @@
 package com.practice;
 
-import java.math.BigDecimal;
-
 public class AnanymousInnerClass {
 
     public static int var = 10;

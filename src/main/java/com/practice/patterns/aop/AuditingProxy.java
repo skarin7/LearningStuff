@@ -27,7 +27,7 @@ public class AuditingProxy implements InvocationHandler {
             result = method.invoke(object, args);
             Thread.sleep(100);
             long endTime = System.currentTimeMillis();
-            System.out.println(String.format("%s took %d nano seconds", method.getName(), (endTime - startTime)));
+            System.out.printf("%s took %d nano seconds%n", method.getName(), (endTime - startTime));
         } catch (InvocationTargetException ite) {
             throw ite.getTargetException();
         } catch (Exception ex) {

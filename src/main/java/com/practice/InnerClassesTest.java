@@ -1,7 +1,5 @@
 package com.practice;
 
-import java.util.HashMap;
-
 /**
  * Created by shankark on 16/2/17.
  */
@@ -23,9 +21,9 @@ public class InnerClassesTest {
     }
 
     private class SecondInne {
-        private String text = " From normal inner clas";
 
         void print() {
+            String text = " From normal inner clas";
             System.out.println(" Printed text is " + text);
             System.out.println(" Printed text is from Outer class " + InnerClassesTest.this.text);
 
@@ -34,9 +32,9 @@ public class InnerClassesTest {
     }
 
     private static class  StaticInner {
-        private String sample = "Sample..";
 
         void sampPrint() {
+            String sample = "Sample..";
             System.out.println(" Hello .." + sample);
         }
 

@@ -1,7 +1,5 @@
 package com.practice;
 
-import com.practice.patterns.strategy.Strategy;
-
 /**
  * Created by shankark on 14/2/17.
  */

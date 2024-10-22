@@ -1,7 +1,6 @@
 package com.practice.collections;
 
 import java.util.*;
-import java.util.stream.Stream;
 
 public class ExperimentCollections {
 

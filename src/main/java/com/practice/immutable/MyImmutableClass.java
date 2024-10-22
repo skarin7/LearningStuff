@@ -1,7 +1,6 @@
 package com.practice.immutable;
 
 import java.util.HashMap;
-import java.util.Map;
 
 /**
  * Created by shankark on 28/9/16.

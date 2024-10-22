@@ -28,6 +28,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * 5. Expose a public method to customize the interface vs implementation binding.
  *
  */
+@SuppressWarnings("unchecked")
 public class CustomDI {
     private Map<Class<?>, Class<?>> implementations = new ConcurrentHashMap<>();
     private Map<Class<?>, Object> singletons = new ConcurrentHashMap<>();

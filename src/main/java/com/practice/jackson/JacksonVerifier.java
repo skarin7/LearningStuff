@@ -1,16 +1,11 @@
 package com.practice.jackson;
 
-import com.fasterxml.jackson.annotation.JsonCreator;
-import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
-import com.fasterxml.jackson.databind.type.TypeFactory;
 import org.junit.Ignore;
 import org.junit.Test;
 
-import javax.jws.soap.SOAPBinding;
 import java.io.IOException;
-import java.io.PushbackInputStream;
 
 /**
  * Created by shankar on 8/5/17.

@@ -34,14 +34,9 @@ public class SampleTest {
         map1.compute(new Long(1), (k, v) -> v == null ? "new P1" : "P1 modified");
         map1.forEach((k, v) -> alterMap(k, v));
 
-        Function<Map<Long, String>, Map<Long, String>> finalMap = new Function<Map<Long, String>, Map<Long, String>>() {
-
-            @Override
-            public Map<Long, String> apply(Map<Long, String> t) {
-                // TODO Auto-generated method stub
-                return null;
-            }
-
+        Function<Map<Long, String>, Map<Long, String>> finalMap = t -> {
+            // TODO Auto-generated method stub
+            return null;
         };
         System.out.println(map1);
 
