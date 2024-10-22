@@ -16,6 +16,10 @@ public class EnumTest {
         System.out.println(EnumSet.allOf(EnumType.class));
         System.out.println(EnumSet.of(EnumType.ONE, EnumType.THREE));
         test.printEnms();
+
+        STATUS stop = STATUS.STOP;
+
+        System.out.println(" stop " + stop);
     }
 
     void printEnms() {
@@ -23,9 +27,13 @@ public class EnumTest {
     }
 
     public enum EnumType {
-        ONE("1"), TWO("2"), THREE("3");
+        ONE("1"),
+        TWO("2"),
+        THREE("3"),
+        FOUR ("4");
 
-        String value;
+
+        final String value;
         private EnumType(String value) {
             this.value = value;
         }
@@ -35,6 +43,10 @@ public class EnumTest {
         }
     }
 
-
+    public enum STATUS {
+        START,
+        STOP,
+        RESTART;
+    }
 
 }

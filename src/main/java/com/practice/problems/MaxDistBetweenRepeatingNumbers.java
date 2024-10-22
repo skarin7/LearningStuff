@@ -11,9 +11,9 @@ import java.util.Map;
 public class MaxDistBetweenRepeatingNumbers {
 
     public static void main(String[] args) {
-        int input[] = {3, 2, 1, 2, 1, 4, 5, 8, 6, 7, 4, 2};
+        int input[] = {1, 2, 3, 1, 4, 5, 2, 6, 1};
     MaxDistBetweenRepeatingNumbers test = new MaxDistBetweenRepeatingNumbers();
-        System.out.println(test.maxDistance(input, 10));
+        System.out.println(test.maxDistanceUsingHash(input));
     }
     private int maxDistance(int arr[], int n) {
         Map<Integer, Integer> map = new HashMap<>();
@@ -35,6 +35,20 @@ public class MaxDistBetweenRepeatingNumbers {
             }
         }
         return max;
+    }
+
+    int maxDistanceUsingHash(int[] input) {
+        Map<Integer, Integer> map = new HashMap<>();
+        int maxDistance = 0;
+        for (int i = 0; i < input.length; i++) {
+            if(map.containsKey(input[i])) {
+                maxDistance = Math.max(maxDistance, (i - map.get(input[i])));
+            } else {
+                map.put(input[i], i);
+            }
+        }
+
+        return maxDistance;
     }
 
     private int atoi(String str) {

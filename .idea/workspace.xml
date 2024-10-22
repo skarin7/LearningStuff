@@ -5,14 +5,66 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43fff09a-ea1f-4377-a4ef-d53551832bb0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ServerContextIssue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestDeseriler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/Content.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/DateToTimestampDeserializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/latest/classics/MyBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/latest/classics/MyTrie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/latest/classics/MyTrie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/EnumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/EnumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/datastructures/PrintAllPermitaionsWithSpaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/datastructures/PrintAllPermitaionsWithSpaces.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/datastructures/trees/DepthOfATree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/datastructures/trees/DepthOfATree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/problems/MaxDistBetweenRepeatingNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/problems/MaxDistBetweenRepeatingNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/AnanymousInnerClass$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/AnanymousInnerClass$SayColor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/AnanymousInnerClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/Child.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/CloningAnObject$SafeSimpleDateFormat$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/CloningAnObject$SafeSimpleDateFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/CloningAnObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/CompareListOfmaps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/ConcreteClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/DefaultMethodInterfaceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/FunctionalInterfaceJava8Demo$Demofunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/FunctionalInterfaceJava8Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/GrandParent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/GuestEmployee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/Industry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/InterfaceWithDefaultMethods1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/InterfaceWithDefaultMethods2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/MInimumSumOfSortedArraElements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/MultipleInheritanceExample$A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/MultipleInheritanceExample$AB$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/MultipleInheritanceExample$AB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/MultipleInheritanceExample$B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/MultipleInheritanceExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/MyAbstractClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/MyLinkedList$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/MyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/Parent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/SampleTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/SampleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/SerializationDeserialization.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/SoftwareIndustry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/TestAbstarctInterfaces.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/TestInherit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/VolatileSample$ThreadFirst.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/VolatileSample$ThreadSecond.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/VolatileSample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/collections/ConcurrentMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/collections/ExperimentCollections.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/collections/FailFastModificationsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/collections/MyArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/collections/MyHashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/generics/GenericType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/immutable/MyImmutableClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/multithreading/ProducerConsumerTest$MyConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/multithreading/ProducerConsumerTest$MyProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/multithreading/ProducerConsumerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/patterns/proxy/Image.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/patterns/proxy/ProxyImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/patterns/proxy/ProxyPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/patterns/proxy/RealImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/polymorphism/Child.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/polymorphism/Parent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/polymorphism/TestPloymorphism.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,6 +205,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "skarin7"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:skarin7/LearningStuff.git",
+    "accountId": "b10a3d49-65b8-4e9e-b051-778fdbb628fd"
+  }
+}]]></component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -346,14 +410,28 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BloomFilterWithBitSet.executor": "Run",
+    "Application.CustomDI.executor": "Run",
+    "Application.CustomDIDriver.executor": "Debug",
     "Application.DepthOfATree.executor": "Run",
+    "Application.EnumTest.executor": "Run",
+    "Application.FindMissingNumber.executor": "Run",
+    "Application.InvertABinaryTree.executor": "Run",
+    "Application.LongestSubStringWithoutRepeating.executor": "Run",
+    "Application.MaxDistBetweenRepeatingNumbers.executor": "Run",
     "Application.MaxInBionicArray.executor": "Run",
+    "Application.MaxSubArraySum.executor": "Run",
+    "Application.MyQuickSort.executor": "Run",
+    "Application.PrintAllPermitaionsWithSpaces.executor": "Run",
     "Application.ProducerConsumerTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/shankarkaringula/Work/Sources/Learnings/LearningStuff",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -361,7 +439,7 @@
       <recent name="com.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProducerConsumerTest">
+  <component name="RunManager" selected="Application.CustomDIDriver">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -442,13 +520,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BloomFilterWithBitSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.latest.BloomFilterWithBitSet" />
+    <configuration name="CustomDI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.customDI.CustomDI" />
       <module name="learning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.practice.latest.*" />
+          <option name="PATTERN" value="com.practice.customDI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -456,13 +534,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DepthOfATree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.datastructures.trees.DepthOfATree" />
+    <configuration name="CustomDIDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.customDI.CustomDIDriver" />
       <module name="learning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.practice.datastructures.trees.*" />
+          <option name="PATTERN" value="com.practice.customDI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.EnumTest" />
+      <module name="learning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindMissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.FindMissingNumber" />
+      <module name="learning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -484,38 +590,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxInBionicArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.latest.codingpatterns.MaxInBionicArray" />
+    <configuration name="PrintAllPermitaionsWithSpaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.datastructures.PrintAllPermitaionsWithSpaces" />
       <module name="learning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.practice.latest.codingpatterns.*" />
+          <option name="PATTERN" value="com.practice.datastructures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProducerConsumerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.multithreading.ProducerConsumerTest" />
-      <module name="learning" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.practice.multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDeseriler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestDeseriler" />
-      <module name="learning" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -599,22 +683,22 @@
     </configuration>
     <list>
       <item itemvalue="Application.JacksonVerifier" />
-      <item itemvalue="Application.BloomFilterWithBitSet" />
-      <item itemvalue="Application.DepthOfATree" />
-      <item itemvalue="Application.MaxInBionicArray" />
-      <item itemvalue="Application.ProducerConsumerTest" />
-      <item itemvalue="Application.TestDeseriler" />
+      <item itemvalue="Application.CustomDI" />
+      <item itemvalue="Application.CustomDIDriver" />
+      <item itemvalue="Application.EnumTest" />
+      <item itemvalue="Application.FindMissingNumber" />
+      <item itemvalue="Application.PrintAllPermitaionsWithSpaces" />
       <item itemvalue="JUnit.MultiPramaGenericsTest" />
       <item itemvalue="JUnit.JacksonVerifier.givenAbstractClass_whenDeserializing_thenException" />
       <item itemvalue="JUnit.JacksonVerifier" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProducerConsumerTest" />
-        <item itemvalue="Application.BloomFilterWithBitSet" />
-        <item itemvalue="Application.DepthOfATree" />
-        <item itemvalue="Application.MaxInBionicArray" />
-        <item itemvalue="Application.TestDeseriler" />
+        <item itemvalue="Application.CustomDIDriver" />
+        <item itemvalue="Application.CustomDI" />
+        <item itemvalue="Application.EnumTest" />
+        <item itemvalue="Application.FindMissingNumber" />
+        <item itemvalue="Application.PrintAllPermitaionsWithSpaces" />
       </list>
     </recent_temporary>
   </component>
@@ -830,6 +914,46 @@
           <line>58</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ServerContextIssue.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/practice/customDI/CustomDIDriver.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/practice/customDI/CustomDI.java</url>
+          <line>118</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/practice/customDI/CustomDI.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/practice/customDI/CustomDIDriver.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/practice/customDI/CustomDIDriver.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/practice/customDI/CustomDI.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/practice/customDI/CustomDI.java</url>
+          <line>119</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/practice/latest/codingpatterns/TreePathWithSum.java</url>
           <line>106</line>
@@ -838,6 +962,33 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/practice/datastructures/trees/DepthOfATree.java</url>
+          <line>75</line>
+          <properties class="com.practice.datastructures.trees.DepthOfATree" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/practice/slidingwindow/LongestSubStringWithoutRepeating.java</url>
+          <line>32</line>
+          <properties class="com.practice.slidingwindow.LongestSubStringWithoutRepeating" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/practice/problems/MyQuickSort.java</url>
+          <line>47</line>
+          <properties class="com.practice.problems.MyQuickSort" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

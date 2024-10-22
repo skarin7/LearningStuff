@@ -5,7 +5,7 @@ import java.util.Queue;
 
 public class DepthOfATree {
 
-    static class MyTreeNode {
+    private static class MyTreeNode {
         private int data;
         private MyTreeNode left;
         private  MyTreeNode right;
@@ -80,16 +80,16 @@ public class DepthOfATree {
 
         MyTreeNode child1 = new MyTreeNode(1, null, null);
         MyTreeNode child11 = new MyTreeNode(11, null, null);
-//        child1.setLeft(child11);
+        child1.setLeft(child11);
 
 
         MyTreeNode child2 = new MyTreeNode(2, null, null);
         MyTreeNode child21 = new MyTreeNode(21, null, null);
-//        child2.setLeft(child21);
+        child2.setLeft(child21);
 
 
-        root.setLeft(null);
-        root.setRight(null);
+        root.setLeft(child1);
+        root.setRight(child2);
 
         DepthOfATree depthFInder = new DepthOfATree();
         System.out.printf("Depth of a tree is " + depthFInder.depth(root));

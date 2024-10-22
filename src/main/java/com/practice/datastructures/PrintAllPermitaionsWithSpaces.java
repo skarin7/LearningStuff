@@ -1,25 +1,34 @@
 package com.practice.datastructures;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * Created by shankark on 17/12/16.
  */
 public class PrintAllPermitaionsWithSpaces {
 
-    void print(String prefix, String data) {
-        if(prefix.length() == 0) {
-            System.out.println(prefix);
-        } else {
-            String remaining = data.substring(1);
-
-             ;
+    List<List<Integer>> print(List<Integer> input) {
+        List<List<Integer>> allArrays = new ArrayList<>();
+        for (int i= 0; i< input.size(); i++) {
+            for (int j = i; j < input.size(); j++) {
+                List<Integer> subArray = new ArrayList<>();
+                for (int k = i; k <=j ; k++) {
+                    subArray.add(input.get(k));
+                }
+                allArrays.add(subArray);
+            }
         }
+
+        return allArrays;
     }
 
 
     public static void main(String[] args) {
-        String input  = "abcd";
+        List<Integer> input  = Arrays.asList(1,4,5);
         PrintAllPermitaionsWithSpaces test = new PrintAllPermitaionsWithSpaces();
-//        System.out.println(test.print(input));
+        System.out.println(" All combos" + test.print(input));
 
     }
 }
