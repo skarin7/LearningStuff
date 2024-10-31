@@ -1,4 +1,4 @@
-package com.practice.latest.codingpatterns;
+package com.practice.codingpatterns;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -46,7 +46,7 @@ public class NearestKPointsIn2DPlane {
         for (int i = k; i< points.length; i++) {
             if(points[i].distanceFromOrigin() < maxHeap.peek().distanceFromOrigin()) {
                 maxHeap.poll();
-                maxHeap.add(points[k]);
+                maxHeap.add(points[i]);
             }
         }
 

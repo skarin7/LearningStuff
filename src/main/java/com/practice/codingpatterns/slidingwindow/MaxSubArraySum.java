@@ -1,4 +1,4 @@
-package com.practice.slidingwindow;
+package com.practice.codingpatterns.slidingwindow;
 
 public class MaxSubArraySum {
 

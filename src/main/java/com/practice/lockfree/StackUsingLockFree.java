@@ -28,7 +28,6 @@ public class StackUsingLockFree<T> {
             // If the update fails, the loop repeats and retries
         }
     }
-
     public T pop() {
         while (true) {
             //allows the operation to keep trying untill the compare and set return true.
@@ -60,6 +59,4 @@ public class StackUsingLockFree<T> {
         stringStackUsingLockFree.print();
 
     }
-
-
 }

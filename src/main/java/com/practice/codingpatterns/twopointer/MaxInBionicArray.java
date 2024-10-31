@@ -1,4 +1,4 @@
-package com.practice.latest.codingpatterns;
+package com.practice.codingpatterns.twopointer;
 
 public class MaxInBionicArray {
 

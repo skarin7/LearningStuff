@@ -6,6 +6,7 @@ public class TestDeadLock {
     static String r2 = "world";
 
     public static void main(String[] args) {
+
         Thread t1 = new Thread(() -> {
             synchronized (r1) {
                 System.out.printf("Thread 1 locking resource r2..");

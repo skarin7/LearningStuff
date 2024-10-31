@@ -1,4 +1,4 @@
-package com.practice.latest.codingpatterns;
+package com.practice.codingpatterns.twopointer;
 
 import java.util.Arrays;
 
@@ -8,6 +8,9 @@ public class PairWithGivenSum {
         // for each item, find out corresponding (targetSUm - itemvalue) in the remaining array.. using binary search
         //Complexity: O(n*logn)
         //Can we reduce furthur? Use two pointers..
+
+
+        Arrays.sort(input);
         int start = 0, end = input.length - 1;
 //        int[][] result = new int[input.length][];
         while (start < end) {

@@ -1,4 +1,4 @@
-package com.practice.latest.codingpatterns;
+package com.practice.codingpatterns;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -23,6 +23,6 @@ public class ALLSubSets {
     }
     public static void main(String[] args) {
         List<Integer> input = Arrays.asList(1,3,5,9);
-        System.out.printf("COmbos : " + findAllSubsets(input));
+        System.out.printf("Combos : " + findAllSubsets(input));
     }
 }
