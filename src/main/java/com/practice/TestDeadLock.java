@@ -2,6 +2,10 @@ package com.practice;
 
 public class TestDeadLock {
 
+    /**
+     * For a deadlock to occur you need two resources and 2 workers trying to access them
+     *
+     */
     static String r1 = "Hello";
     static String r2 = "world";
 
